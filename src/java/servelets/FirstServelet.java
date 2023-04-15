@@ -5,10 +5,19 @@
  */
 package servelets;
 
+import javax.servlet.*;
 /**
  *
  * @author Gyanendra-Yadav
  */
 public class FirstServelet {
+    
+    //Adding lifecycle methods of the servelet
+    
+    //This is the first mehtod of Servelet initilzation
+    public void init(ServletConfig config){
+        System.out.println("Hey....! Creating object of the servelet in the init method");
+ 
+    }
     
 }
