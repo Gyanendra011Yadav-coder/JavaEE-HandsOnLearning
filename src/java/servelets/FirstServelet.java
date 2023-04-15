@@ -20,4 +20,9 @@ public class FirstServelet {
  
     }
     
+    //this is the second phase of Servlet Life-Cycle 
+    public void service(ServletRequest req, ServletResponse res){  
+        System.out.println("Hey.....! On the second LifeCycle Phase of Servlet");
+    }
+    
 }
