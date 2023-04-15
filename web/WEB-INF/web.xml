@@ -7,8 +7,15 @@
     
     <!-- Servlet Description-->
     <servlet>
-        <servlet-name> </servlet-name>
+        <servlet-name> first</servlet-name>
+        <servlet-class> com.servelets.FirstServelet </servlet-class>
     </servlet>
+    
+    <!-- Mapping-->
+    <servlet-mapping>
+         <servlet-name>first</servlet-name>
+         <url-pattern>/web</url-pattern>
+    </servlet-mapping>
     
     <session-config>
         <session-timeout>
