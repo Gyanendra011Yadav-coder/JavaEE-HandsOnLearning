@@ -19,7 +19,7 @@ public class SecondServletUsingGenricServlet extends GenericServlet{
 
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Hey.......! This is Generic Servelet");
     }
     
     
