@@ -15,7 +15,7 @@ import javax.servlet.ServletResponse;
  *
  * @author Gyanendra-Yadav
  */
-public class SecondServletUsingGenricServlet extends GenericServlet{
+public class SecondServletUsingGenricServlet  extends GenericServlet{
 
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {

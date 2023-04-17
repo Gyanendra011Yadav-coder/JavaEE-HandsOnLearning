@@ -34,17 +34,12 @@ public class FirstServelet implements Servlet{
     }
     
     //Another method of the servlet LifeCycle \
-    public String getServeletInfo(){
+    public String getServletInfo(){
         return "Hey.......! Returning serveletInfo";
     }
     
     public ServletConfig getServletConfig(){
         return this.config;
-    }
-
-    @Override
-    public String getServletInfo() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
